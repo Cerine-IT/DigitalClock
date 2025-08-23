@@ -21,7 +21,6 @@ function DigitalClock () {
         return `${String(hours % 12 || 12).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')} ${meridiem}`;
     }
 
-    
 
     return (
         <div className="clock-container">

@@ -1,12 +1,67 @@
-# React + Vite
+# Digital Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple digital clock web application built with React. The app displays the current time in a large, readable format and updates every second. The background features a scenic image with a blur effect behind the clock for enhanced visual appeal.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time digital clock (12-hour format with AM/PM)
+- Responsive and centered layout
+- Stylish background image with blur effect
+- Built using React functional components and hooks
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Screenshot](src/assets/barrage-de-taksebt.jpg)
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/your-username/digital-clock.git
+   cd digital-clock
+   ```
+
+2. Install dependencies:
+
+   ```
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+## Project Structure
+
+```
+DigitalClock/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── DigitalClock.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── assets/
+│       └── barrage-de-taksebt.jpg
+└── README.md
+```
+
+## Customization
+
+- To change the background image, replace `src/assets/barrage-de-taksebt.jpg` with your preferred image and update the CSS in `index.css` if needed.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
